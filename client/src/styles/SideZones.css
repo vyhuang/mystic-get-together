@@ -1,0 +1,24 @@
+.graveyard {
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    border-radius: 8px;
+    margin: 0.2em;
+    text-align: center;
+    background-color: slategray;
+}
+.exile {
+    border-style: dotted;
+    border-width: medium;
+    border-color: black;
+    border-radius: 8px;
+    margin: 0.2em;
+    text-align: center;
+    background-color: gainsboro;
+}
+.innerBox {
+    vertical-align: middle;
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

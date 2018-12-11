@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import Child from './Child';
 
 import '../styles/GameArea.css';
+import Graveyard from './Graveyard';
+import Exile from './Exile';
 
 class GameArea extends Component {
   decrementLife = () => {
@@ -23,8 +25,8 @@ class GameArea extends Component {
         </div>
         <div className="side-area">
           <div className="temp">Life: {life} <button onClick={this.decrementLife} type="submit">Click</button></div>
-          <div className="temp">Exile</div>
-          <div className="temp">Grave</div>
+          <Exile exile="13"/>
+          <Graveyard graveyard="44"/>
           <div className="temp">Hand</div>
           <div className="temp">Library</div>
         </div>
